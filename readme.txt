@@ -100,3 +100,5 @@ In the above example, the following things need to be noted −
    <demo-app></demo-app> 
 </body>
 =====================================================================================================================================
+
+go to the app.module.ts folder in your app folder. This is known as the root module class.
