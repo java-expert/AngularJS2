@@ -102,3 +102,30 @@ In the above example, the following things need to be noted −
 =====================================================================================================================================
 
 go to the app.module.ts folder in your app folder. This is known as the root module class.
+
+
+template: ' 
+   <div>
+      <h1>{{appTitle}}</h1> 
+      <div>To Tutorials Point</div> 
+   </div> 
+' 
+
+This is known as an inline template.
+.......................................................................................................................................
+
+templateURL: 
+viewname.component.html 
+
+viewname − This is the name of the app component module.
+.......................................................................................................
+A directive is a custom HTML element that is used to extend the power of HTML. Angular 2 has the following directives
+that get called as part of the BrowserModule module.
+
+    ngif
+    ngFor
+	
+	<div *ngIf = 'appStatus'>{{appTitle}} Tutorialspoint </div> 
+	
+	The ngFor element is used to elements based on the condition of the For loop
+
