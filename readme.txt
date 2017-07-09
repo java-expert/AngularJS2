@@ -129,3 +129,8 @@ that get called as part of the BrowserModule module.
 	
 	The ngFor element is used to elements based on the condition of the For loop
 
+.............................................................................................................................................
+
+<html tag htmlproperty = 'property'> 
+
+The value of the property would then be assigned to the htmlproperty of the html.
